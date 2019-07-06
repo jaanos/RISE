@@ -492,7 +492,7 @@ define([
           `<link rel="stylesheet" href="rise.css" id="rise-custom-css" />`);
       // Attempt to load css with the same path as notebook
       $('head').append(
-          `<link rel="stylesheet" href="${name_css}" id="rise-notebook-css" />`);
+          `<link rel="stylesheet" href="${name_css}" id="notebook-custom-css" />`);
 
     }
 
